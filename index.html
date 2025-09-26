@@ -103,5 +103,18 @@
         </div>
     </div>
 </div>
+    <script>
+    const modal = document.getElementById('docsModal');
+
+    function openModal() {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+    }
+
+    function closeModal() {
+        modal.classList.remove('flex');
+        modal.classList.add('hidden');
+    }
+</script>
 </body>
 </html>
